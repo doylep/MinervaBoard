@@ -11,7 +11,6 @@ The board is designed to operate from a regulated 5V power supply and interface 
 Known Issues
 ------------
 This board is in active development, and there are several suspected issues with this design:
-- The power supply traces (in particular, the 5V line) is too thin to provide the necessary power for all four Darlington Arrays to operate at full capacity (2A for the arrays, 1A for the Raspberry Pi, 1A for the ATMega328, and 1A for the MAX98357).
 - Although the UART communication circuit between the Raspberry Pi and the ATMega328 is based on documented examples with the TXS0102, this circuit between has not been tested.
 - The board doesn't offer any power breakouts for supplying power to additional accessories from the same power supply. Although not necessary, this would further reduce the need for additional wiring and circuits.
 
